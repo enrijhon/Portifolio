@@ -1,0 +1,936 @@
+/* Estilo Geral do Portifolio */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    /* Por padrao todos elementos tem 0 de margin */
+    padding: 0;
+    /* Por padrao todos elementos tem 0 de preenchimento */
+    font-family: 'Poppins', sans-serif;
+    /* Definindo a fonte padrao a ser usada*/
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000;
+    /* Definindo a cor de fundo para Preto*/
+    height: 100vh;
+    /* Definindo a altura do body para 100% do tamanho do container*/
+    scroll-behavior:smooth;
+    transition: 1s;
+}
+
+/*definindo cabecario*/
+.cabecario {
+    max-width: 1280px;
+    /* Definindo o tamanho maximo de largura para o cabecario de 1280px */
+    margin: 0 auto;
+    /* Margem 0 de altura e largura automatica para o cabecario */
+    border-radius: 10px;
+    background-color: #1b191950;
+    box-shadow: 0px 0px 8px 0px#ffffff52;
+}
+
+/*definindo conteudo 1 do corpo*/
+.conteudo1 {
+    top: 100px;
+    display: flex;
+    max-width: 1280px;
+    /* Definindo o tamanho maximo de largura para o cabecario de 1280px */
+    padding: 10px 4%;
+    /* Espaçamento de 40px de altura e 4% de largura */
+    align-items: flex-end;
+    margin: 0px 50px 0px 50px;
+}
+
+/*definindo conteudo 2 do corpo*/
+.conteudo2 {
+    display: flex;
+    max-width: 1280px;
+    /* Definindo o tamanho maximo de largura para o cabecario de 1280px */
+    margin: 0 auto;
+    /* Margem 0 de altura e largura automatica para o cabecario */
+    padding: 80px 4%;
+    /* Espaçamento de 40px de altura e 4% de largura */
+    align-items: center;
+    margin: 0px 50px 0px 50px;
+}
+
+.conteudo3 {
+    display: flex;
+    max-width: 1280px;
+    /* Definindo o tamanho maximo de largura para o cabecario de 1280px */
+    margin: 0 auto;
+    /* Margem 0 de altura e largura automatica para o cabecario */
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 50px 0px 50px;
+}
+
+.conteudo4 {
+    display: flex;
+    max-width: 1280px;
+    /* Definindo o tamanho maximo de largura para o cabecario de 1280px */
+    margin: 0 auto;
+    /* Margem 0 de altura e largura automatica para o cabecario */
+    padding: 40px 4%;
+    /* Espaçamento de 40px de altura e 4% de largura */
+    align-items: center;
+    margin: 0px 50px 0px 50px;
+}
+
+.conteudo5 {
+    display: flex;
+    max-width: 1280px;
+    /* Definindo o tamanho maximo de largura para o cabecario de 1280px */
+    margin: 0 auto;
+    /* Margem 0 de altura e largura automatica para o cabecario */
+    padding: 80px 4%;
+    /* Espaçamento de 40px de altura e 4% de largura */
+    align-items: center;
+    margin: 0px 50px 0px 50px;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.conteudo6 {
+    top: 100px;
+    display: flex;
+    max-width: 1280px;
+    /* Definindo o tamanho maximo de largura para o cabecario de 1280px */
+    margin: 0 auto;
+    /* Margem 0 de altura e largura automatica para o cabecario */
+    padding: 10px 4%;
+    /* Espaçamento de 40px de altura e 4% de largura */
+    align-items: flex-end;
+    margin: 0px 50px 0px 50px;
+}
+
+.conteudo7 {
+    display: flex;
+    max-width: 1280px;
+    /* Definindo o tamanho maximo de largura para o cabecario de 1280px */
+    margin: 0 auto;
+    /* Margem 0 de altura e largura automatica para o cabecario */
+    padding: 20px 4%;
+    /* Espaçamento de 40px de altura e 4% de largura */
+    align-items: center;
+    margin: 0px 50px 0px 50px;
+    justify-content: space-around;
+}
+
+/*definindo conteudo da selection*/
+.topo {
+    max-width: 1280px;
+    /* Definindo o tamanho maximo de largura para o cabecario de 1280px */
+    margin: 0 auto;
+    /* Margem 0 de altura e largura automatica para o cabecario */
+    border-radius: 30px;
+    background-color: #1b191950;
+    box-shadow: 0px 0px 8px 0px#ffffff52;
+    scroll-behavior: smooth;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+/* Estilo cabecario */
+
+header {
+    padding: 40px 4%;
+    /* Espaçamento de 40px de altura e 4% de largura */
+}
+
+header>.cabecario {
+    display: flex;
+    /* Organizando os intens em uma linha*/
+    align-items: center;
+    /* Alinha os itens do cabecario para o centro */
+    justify-content: space-between;
+    /*  empurrando o primeiro item para o início e o último item para o final */
+
+}
+
+
+/* Tamanho logo */
+.Ej {
+    width: 15vh;
+    /* Define a largura em fração ou seja 15% da largura total do corpo ou seja a imagem */
+    height: 15vh;
+    /* Define a altura em fração ou seja 15% da largura total do corpo ou seja a imagem */
+}
+
+/* Estilização das fontes */
+header a {
+    color: #009dff;
+    /* Define a cor das fontes para branco ofuscado*/
+    text-decoration: none;
+    /* Remove o estilo padrão do texto */
+    display: inline-block;
+}
+
+header a:hover {
+    color: #fff;
+    /* Define a cor das fontes para branco ofuscado*/
+
+}
+.menu-pc ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.menu-pc{
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul {
+    /* Remove marcadores padrão da lista */
+    font-size: 18px;
+    /* Definindo o tamanho da fonte para 18px */
+    font-weight: 600;
+    /* Adicionando um peso na fonte do cabecario */
+    padding: 0;
+    margin-right: 50px;
+    transition: .20s;
+}
+
+li a {
+    padding: 1vh 2vh;
+    transition: .20s;
+}
+
+/* Animaçao apos o cursor movimentar por cima */
+li a:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    /* Ao passar o mouse em cima define para pointer o cusor*/
+    transition: .20s;
+    /* Suaizando a animação*/
+    background-color: #009dff;
+    /*definindo a cor*/
+    border-radius: 20px;
+    /* adicionando curvatura na borda*/
+    box-shadow: 0px 0px 8px #004552;
+    /* adicionando sombreamento*/
+    border: 0;
+    /* Tirando toda a bora de contorno*/
+}
+
+header nav ul li {
+    display: inline-block;
+    /* Exibe os itens em linha */
+    padding-left: 10px;
+}
+
+
+/* Estilizando o texto presente no main */
+.corpoap {
+    color: #fff;
+    /* definindo a cor padrao das fontes */
+    max-width: 45vh;
+    margin-right: 100px;
+}
+
+.corpoap h1 {
+    font-size: 35px;
+    /* Definindo o tamanho da fonte*/
+    font-weight: 700;
+    /* Adicionando um peso na fonte do h4 */
+    line-height: 35px;
+}
+
+.corpoap h1 span {
+    color: #009dff;
+}
+
+.corpoap h4 {
+    font-weight: 500;
+    /* Adicionando um peso na fonte do h4 */
+    font-size: 16px;
+    /* Definindo o tamanho da fonte*/
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+/* Estilizando o botao meus serviços */
+main .apresentacao button {
+    /* definindo margim para altura*/
+    background-color: #009dff;
+    /* definindo cor do botao */
+    box-shadow: 0px 0px 5px #032633;
+    /* adicionando sombreamento*/
+    border-radius: 20px;
+    /* adicionando curvatura na borda*/
+    text-align: center;
+    /* alinhando ao centro*/
+    padding: 10px 40px;
+    /* definindo o preenchimento do botao*/
+    color: #fff;
+    /* Definindo a cor do botao*/
+    font-size: 14;
+    /* Definindo o tamanho da fonte do botao*/
+    font-weight: 600;
+    /* Adicionando um peso na fonte do botao */
+    border: 0;
+    /* Tirando toda a bora de contorno*/
+}
+
+
+/* Animaçao apos o cursor movimentar por cima do botao*/
+main .apresentacao button:hover {
+    transform: scale(1.1);
+    /* adicionando efeito de zoom */
+    transition: .3s;
+    /* definindo efeito de transição*/
+    cursor: pointer;
+    /* Ao passar o mouse em cima define para pointer o cusor*/
+}
+
+/* Estilizando corpo*/
+
+.fotoapresentacao {
+    max-width: 50vh;
+    display: flex;
+    /* definindo tamanho da imagem */
+    justify-content: right;
+    /* Centraliza os itens horizontalmente */
+    position: relative;
+    animation: flutuar 1.5s ease-in-out infinite alternate;
+}
+
+/* Estilizando foto da apresentação*/
+.lg {
+    width: 400px;
+    /* Define a largura em fração ou seja 15% da largura total do corpo ou seja a imagem */
+    height: 400px;
+    /* Define a altura em fração ou seja 15% da largura total do corpo ou seja a imagem */
+    margin-left: 30%;
+    /* margem a esquerda*/
+    border: 0px;
+    /* tirando linhas de bordas*/
+}
+
+/* Estilizando clientes*/
+.clientes {
+    align-items: center;
+    justify-content: center;
+    /* Centraliza os itens horizontalmente */
+    display: inline-flex;
+}
+
+/* Estilizando imagem apresentacao */
+.cliente img {
+    max-width: 100%;
+    max-height: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 150px;
+
+}
+
+/* Estilizando os blocos dentro do conteudo 2 */
+.cliente {
+    align-content: center;
+    display: inline-flex;
+    margin-right: 10px;
+    justify-content: right;
+    list-style: none;
+    border: none;
+}
+
+.cliente a:hover {
+    justify-content: right;
+    list-style: none;
+    border-radius: 30px;
+    cursor: pointer;
+    /* Ao passar o mouse em cima define para pointer o cusor*/
+    transform: scale(1.2);
+    /* adicionando efeito de zoom */
+    transition: .3s;
+}
+
+/* Estilizando teste de meus clientes */
+.msg {
+    color: #fff;
+    align-content: center;
+    display: inline-flex;
+    margin-right: 200px;
+    max-width: 30%;
+    font-weight: 500;
+    font-size: 13px;
+    text-align: left;
+}
+
+.graos {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.fibra {
+    height: 50px;
+    width: 140;
+    cursor: pointer;
+    margin: 5px 5px 5px 5px;
+
+}
+
+.insumos {
+    height: 50px;
+    width: 140;
+    cursor: pointer;
+    margin: 5px 5px 5px 5px;
+}
+
+/* Animacao da logo */
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: 30px;
+    }
+}
+
+/* Estilizando conteudo 3 */
+
+.service {
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 100%;
+    width: 500px;
+    text-align: center;
+    padding: 0;
+
+}
+
+.conheca {
+    color: #fff;
+    font-weight: 510;
+    font-size: 16px;
+}
+
+.meus {
+    color: #009dff;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.resultados {
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.iguais h2 {
+    color: #009dff;
+    font-weight: 510;
+    font-size: 14px;
+}
+
+.iguais h3 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.iguais img {
+    max-width: 100%;
+    max-height: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    /* Centraliza os itens horizontalmente */
+}
+
+.iguais {
+    align-content: center;
+    display: inline-flex;
+    margin-right: 10px;
+    justify-content: right;
+    list-style: none;
+    border: none;
+
+}
+
+.talentos {
+    align-content: center;
+    display: inline-flex;
+    margin-right: 10px;
+    justify-content: right;
+    list-style: none;
+    border: none;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 2px solid #009dff;
+    transform: scale(0.9);
+}
+
+.talentos:hover {
+    transform: scale(1);
+    /* adicionando efeito de zoom */
+    transition: .3s;
+    /* definindo efeito de transição*/
+    cursor: pointer;
+    /* Ao passar o mouse em cima define para pointer o cusor*/
+}
+
+/* Estilizando contato de e-mail */
+.contato {
+    display: inline-flex;
+}
+
+.cabeca {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    text-align: start;
+}
+
+.contexto h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #009dff;
+}
+
+.final {
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: left;
+    line-height: 20px;
+}
+
+.contexto {
+    max-width: 400px;
+    display: inline-block;
+    margin-top: 80px;
+    justify-content: center;
+
+
+}
+
+.campotxt {
+    max-width: 400px;
+    height: 20px;
+    width: 100%;
+    background-color: #ffffffc1;
+    outline: none;
+    border: 0;
+    padding: 20px 20px;
+    border-radius: 20px;
+    color: #000;
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: 600;
+
+}
+
+.campotxt::placeholder {
+    color: #00000057;
+    font-weight: 600;
+    font-size: 18;
+
+}
+
+.represent {
+    max-width: 45vh;
+    max-width: 50vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.emp {
+    width: 400px;
+    /* Define a largura em fração ou seja 15% da largura total do corpo ou seja a imagem */
+    height: 300px;
+    /* Define a altura em fração ou seja 15% da largura total do corpo ou seja a imagem */
+    border: 0px;
+    /* tirando linhas de bordas*/
+    margin-right: 100px;
+    border-radius: 70px;
+    border: 2px solid #009dff;
+
+
+}
+
+.Enviar {
+    margin: 10px auto;
+    /* definindo margim para altura*/
+    background-color: #009dff;
+    /* definindo cor do botao */
+    box-shadow: 0px 0px 5px #032633;
+    /* adicionando sombreamento*/
+    border-radius: 20px;
+    /* adicionando curvatura na borda*/
+    text-align: center;
+    /* alinhando ao centro*/
+    padding: 10px 40px;
+    /* definindo o preenchimento do botao*/
+    color: #fff;
+    /* Definindo a cor do botao*/
+    font-size: 14;
+    /* Definindo o tamanho da fonte do botao*/
+    font-weight: 600;
+    /* Adicionando um peso na fonte do botao */
+    border: 0;
+    /* Tirando toda a bora de contorno*/
+    width: 200px;
+}
+
+.Enviar:hover {
+    transform: scale(1.1);
+    /* adicionando efeito de zoom */
+    transition: .3s;
+    /* definindo efeito de transição*/
+    cursor: pointer;
+    /* Ao passar o mouse em cima define para pointer o cusor*/
+}
+
+.cmt {
+
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    text-align: start;
+}
+
+.pt {
+    font-size: 30px;
+    font-weight: 600;
+    color: #009dff;
+}
+
+.cns {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.dt {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.west {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.ftpt {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #009dff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.ftpt :hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+    box-shadow: 0px 0px 8px #ffffffa4;
+}
+
+body {
+    font-size: 16px;
+    /* Outros estilos para telas grandes */
+}
+
+.botaoap{
+    /* definindo margim para altura*/
+    background-color: #009dff;
+    /* definindo cor do botao */
+    box-shadow: 0px 0px 5px #032633;
+    /* adicionando sombreamento*/
+    border-radius: 20px;
+    /* adicionando curvatura na borda*/
+    text-align: center;
+    /* alinhando ao centro*/
+    padding: 10px 40px;
+    /* definindo o preenchimento do botao*/
+    color: #fff;
+    /* Definindo a cor do botao*/
+    font-size: 14;
+    /* Definindo o tamanho da fonte do botao*/
+    font-weight: 600;
+    /* Adicionando um peso na fonte do botao */
+    border: 0;
+    /* Tirando toda a bora de contorno*/
+    width: 200px;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+/* Estilos para telas médias (tablets) */
+@media (max-width: 992px) {
+    .conteudo1 {
+        flex-direction: column-reverse;
+        align-items: none;
+        margin: none;
+    }
+
+    .lg {
+        margin-left: 0;
+    }
+
+    .topo {
+        box-shadow: none;
+        background-color: #000;
+    }
+
+    .cabecario {
+        box-shadow: none;
+        background-color: #000;
+        display: none;
+
+    }
+
+    .Ej {
+        display: none;
+    }
+
+    .menu-pc {
+        display: none;
+    }
+
+    header {
+        display: none;
+    }
+
+    .corpoap {
+        margin-right: 0px;
+    }
+
+    .contato {
+        flex-direction: column;
+    }
+
+    .emp {
+        width: 50%;
+        height: 50%;
+    }
+
+    .lg {
+        width: 80%;
+        height: 80%;
+    }
+
+    .represent {
+        justify-content: flex-end;
+    }
+
+    .conteudo2 {
+        margin: none;
+        flex-direction: column;
+        align-items: none;
+        padding: 80px;
+    }
+
+    .conteudo3 {
+        margin: none;
+        flex-direction: column;
+        align-items: none;
+        padding: 0;
+    }
+
+    .conteudo4 {
+        margin: none;
+        flex-direction: column;
+        align-items: none;
+        padding: 0;
+    }
+
+    .conteudo5 {
+        margin: none;
+        flex-direction: column;
+        align-items: none;
+        padding: 0;
+    }
+
+    .conteudo6 {
+        margin: none;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+    }
+
+    .conteudo7 {
+        margin: none;
+        flex-direction: column;
+        align-items: none;
+        padding: 50px0;
+    }
+    .apresentacao button {
+        display: flex;
+    }
+
+    .contexto h2 {
+        display: flex;
+
+    }
+
+    .clientes {
+        display: inline-grid;
+        justify-items: center;
+    }
+
+    .msg {
+        display: inline-grid;
+        margin-right: 0px;
+        max-width: none;
+    }
+
+    .service {
+        display: inline-grid;
+    }
+
+    .iguais {
+        display: inline-grid;
+    }
+    .ftpt{
+        margin-top: 20px;
+    }
+}
+
+/* Estilos para telas pequenas (smartphones) */
+@media (max-width: 768px) {
+    .conteudo1 {
+        flex-direction: column-reverse;
+        align-items: none;
+        margin: none;
+    }
+
+    .lg {
+        margin-left: 0;
+    }
+
+    .topo {
+        box-shadow: none;
+        background-color: #000;
+    }
+
+    .cabecario {
+        box-shadow: none;
+        background-color: #000;
+        display: none;
+
+    }
+
+    .Ej {
+        display: none;
+    }
+
+    .menu-pc {
+        display: none;
+    }
+
+    header {
+        display: none;
+    }
+
+    .corpoap {
+        margin-right: 0px;
+    }
+
+    .contato {
+        flex-direction: column;
+    }
+
+    .emp {
+        width: 50%;
+        height: 50%;
+    }
+
+    .lg {
+        width: 80%;
+        height: 80%;
+    }
+
+    .represent {
+        justify-content: flex-end;
+    }
+
+    .conteudo2 {
+        margin: none;
+        flex-direction: column;
+        align-items: none;
+        padding: 80px;
+    }
+
+    .conteudo3 {
+        margin: none;
+        flex-direction: column;
+        align-items: none;
+        padding: 0;
+    }
+
+    .conteudo4 {
+        margin: none;
+        flex-direction: column;
+        align-items: none;
+        padding: 0;
+    }
+
+    .conteudo5 {
+        margin: none;
+        flex-direction: column;
+        align-items: none;
+        padding: 0;
+    }
+
+    .conteudo6 {
+        margin: none;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+    }
+
+    .conteudo7 {
+        margin: none;
+        flex-direction: column;
+        align-items: none;
+        padding: 50px0;
+    }
+
+    .apresentacao button {
+        display: flex;
+    }
+
+    .contexto h2 {
+        display: flex;
+
+    }
+
+    .clientes {
+        display: inline-grid;
+        justify-items: center;
+    }
+
+    .msg {
+        display: inline-grid;
+        margin-right: 0px;
+        max-width: none;
+    }
+
+    .service {
+        display: inline-grid;
+    }
+
+    .iguais {
+        display: inline-grid;
+    }
+    .ftpt{
+        margin-top: 20px;
+    }
+}
